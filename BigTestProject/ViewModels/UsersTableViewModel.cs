@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BigTestProject.ViewModels
+namespace BigTestProject.ViewModels;
+
+class UsersTableViewModel
 {
-    class UsersTableViewModel
-    {
-    }
 }

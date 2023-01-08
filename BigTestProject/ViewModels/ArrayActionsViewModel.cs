@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace BigTestProject.ViewModels;
 
-namespace BigTestProject.ViewModels
+class ArrayActionsViewModel
 {
-    class ArrayActionsViewModel
-    {
-    }
 }
