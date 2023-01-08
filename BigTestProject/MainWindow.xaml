@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BigTestProject"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" 
+        Height="450" 
+        Width="800"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        x:Name="window" 
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent">
+    <Window.DataContext>
+        <local:MainWindowViewModel/>
+    </Window.DataContext>
+    <WindowChrome.WindowChrome>
+        <WindowChrome 
+            ResizeBorderThickness="3" 
+            GlassFrameThickness="5"
+            CornerRadius="5" 
+            CaptionHeight="15" />
+    </WindowChrome.WindowChrome>
+    <Border
+        Background="White"
+        CornerRadius="5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition/>
+                <RowDefinition Height="20"/>
+            </Grid.RowDefinitions>
 
-    </Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="20"/>
+            </Grid.ColumnDefinitions>
+            <Frame 
+            Grid.Column="1"
+            Grid.Row="1"
+            Background="Black"/>
+        </Grid>
+
+    </Border>
 </Window>
