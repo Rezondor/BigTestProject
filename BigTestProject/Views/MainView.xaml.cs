@@ -1,6 +1,4 @@
-﻿using System.Windows.Controls;
-
-namespace BigTestProject.Views;
+﻿namespace BigTestProject.Views;
 
 /// <summary>
 /// Логика взаимодействия для MainView.xaml
